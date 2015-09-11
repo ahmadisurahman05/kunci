@@ -1,0 +1,73 @@
+#include <stdio.h>
+#include <iostream.h>
+#include <string.h>
+
+using namespace std;
+int main()
+{
+   string raptor_prompt_variable_zzyz;
+   char jalan;
+   int kec_motor;
+   int gigi;
+
+   //raptor_prompt_variable_zzyz ="masukan gigi yang sedang dipakai:";
+   cout << raptor_prompt_variable_zzyz << endl;
+   cin >> gigi;
+   //raptor_prompt_variable_zzyz ="masukan kecepatan motor:";
+   cout << raptor_prompt_variable_zzyz << endl;
+   cin >> kec_motor;
+
+   {
+      if (gigi<=4)
+      {
+         if (gigi==1)
+         {
+            if (kec_motor<=40)
+            {
+               cout << "1" << endl;            }
+            else
+            {
+               cout << "0" << endl;            }
+         }
+         else
+         {
+         }
+         if (gigi==2)
+         {
+            if (kec_motor>=41 && kec_motor<=60)
+            {
+               cout << "1" << endl;            }
+            else
+            {
+               cout << "0" << endl;            }
+         }
+         else
+         {
+         }
+         if (gigi==3)
+         {
+            if (kec_motor>=61 && kec_motor<=80)
+            {
+               cout << "1" << endl;            }
+            else
+            {
+               cout << "0" << endl;            }
+         }
+         else
+         {
+         }
+         if (gigi==4)
+         {
+            if (kec_motor>80)
+            {
+               cout << "1" << endl;            }
+            else
+            {
+               cout << "0" << endl;            }
+         }
+}
+
+   }
+
+   return 0;
+}
